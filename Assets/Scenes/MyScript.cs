@@ -15,5 +15,10 @@ public class MyScript : MonoBehaviour
     {
         print("How are you");
         transform.position = new Vector3(10f, 0f, 5f);
+        transform.position += new Vector3(10f, 0f, 5f);
+        transform.position += new Vector3(10f, 0f, 5f);
+        transform.position += new Vector3(10f, 0f, 5f);
+        transform.position += new Vector3(10f, 0f, 5f);
+        transform.position += new Vector3(10f, 0f, 5f);
     }
 }
